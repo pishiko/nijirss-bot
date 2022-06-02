@@ -1,0 +1,554 @@
+{
+  "livers": [
+    {
+      "name": "愛園愛美",
+      "channel_id": "UC0WwEfE-jOM2rzjpdfhTzZA",
+      "tag": "#愛ライブ"
+    },
+    {
+      "name": "相羽ういは",
+      "channel_id": "UCnRQYHTnRLSF0cLJwMnedCg",
+      "tag": "#ういはいしん"
+    },
+    {
+      "name": "赤羽葉子",
+      "channel_id": "UCBi8YaVyZpiKWN3_Z0dCTfQ",
+      "tag": "#赤羽絶況チュウ"
+    },
+    {
+      "name": "アクシア・クローネ",
+      "channel_id": "UC8oPnditPSp5lZu45fnXWCA",
+      "tag": "#AXIALIVE"
+    },
+    {
+      "name": "朝日南アカネ",
+      "channel_id": "UCe_p3YEuYJb8Np0Ip9dk-FQ",
+      "tag": "#あーこといっしょ"
+    },
+    {
+      "name": "飛鳥ひな",
+      "channel_id": "UCiSRx1a2k-0tOg-fs6gAolQ",
+      "tag": "#ひよこさん通信"
+    },
+    {
+      "name": "安土桃",
+      "channel_id": "UC6TfqY40Xt1Y0J-N18c85qQ",
+      "tag": "#あるいはLOVEでいっぱいのLIVE"
+    },
+    {
+      "name": "天ヶ瀬むゆ",
+      "channel_id": "UCAQDFeCTVdx90GtwohwjHzQ",
+      "tag": "#夢遊旅行"
+    },
+    {
+      "name": "天宮こころ",
+      "channel_id": "UCkIimWZ9gBJRamKF0rmPU8w",
+      "tag": "#あまみゃらいぶ"
+    },
+    {
+      "name": "雨森小夜",
+      "channel_id": "UCRWOdwLRsenx2jLaiCAIU4A",
+      "tag": "#雨森と雨宿り"
+    },
+    {
+      "name": "アルス・アルマル",
+      "channel_id": "UCdpUojq0KWZCN9bxXnZwz5w",
+      "tag": "#アルマルーム"
+    },
+    {
+      "name": "アンジュ・カトリーナ",
+      "channel_id": "UCHVXbQzkl3rDfsXWo8xi2qw",
+      "tag": "#賢者の時間"
+    },
+    {
+      "name": "家長むぎ",
+      "channel_id": "UC_GCs6GARLxEHxy1w40d6VQ",
+      "tag": "#むぎむぎ生放送"
+    },
+    {
+      "name": "戌亥とこ",
+      "channel_id": "UCXRlIK3Cw_TJIQC5kSJJQMg",
+      "tag": "#いぬいどんどんすきになる"
+    },
+    {
+      "name": "イブラヒム",
+      "channel_id": "UCmZ1Rbthn-6Jm_qOGjYsh5A",
+      "tag": "#イブライブ"
+    },
+    {
+      "name": "宇志海いちご",
+      "channel_id": "UCmUjjW5zF1MMOhYUwwwQv9Q",
+      "tag": "#いちご放送"
+    },
+    {
+      "name": "卯月コウ",
+      "channel_id": "UC3lNFeJiTq6L3UWoz4g1e-A",
+      "tag": "#ウヅコウ"
+    },
+    {
+      "name": "海妹四葉",
+      "channel_id": "UCtHY-tP0dyykhTRMmnfPs_g",
+      "tag": "#428LIVE"
+    },
+    {
+      "name": "エクス・アルビオ",
+      "channel_id": "UCIytNcoz4pWzXfLda0DoULQ",
+      "tag": "#生エビ"
+    },
+    {
+      "name": "えま★おうがすと",
+      "channel_id": "UCl1oLKcAq93p-pwKfDGhiYQ",
+      "tag": "#えまと謁見"
+    },
+    {
+      "name": "エリー・コニファー",
+      "channel_id": "UCpNH2Zk2gw3JBjWAKSyZcQQ",
+      "tag": "#エリーの妖精通信"
+    },
+    {
+      "name": "える",
+      "channel_id": "UCYKP16oMX9KKPbrNgo_Kgag",
+      "tag": "#えるえる生放送"
+    },
+    {
+      "name": "小野町春香",
+      "channel_id": "UCg63a3lk6PNeWhVvMRM_mrQ",
+      "tag": "#小野町旅館"
+    },
+    {
+      "name": "オリバー・エバンス",
+      "channel_id": "UCqjTqdVlvIipZXIKeCkHKUA",
+      "tag": "#オリバー講義中"
+    },
+    {
+      "name": "甲斐田晴",
+      "channel_id": "UCo2N7C-Z91waaR6lF3LL_jw",
+      "tag": "#生き甲斐田"
+    },
+    {
+      "name": "加賀美ハヤト",
+      "channel_id": "UCmovZ2th3Sqpd00F5RdeigQ",
+      "tag": "#加賀ミーティング"
+    },
+    {
+      "name": "語部紡",
+      "channel_id": "UCufQu4q65z63IgE4cfKs1BQ",
+      "tag": "#語部屋"
+    },
+    {
+      "name": "叶",
+      "channel_id": "UCspv01oxUFf_MTSipURRhkA",
+      "tag": "#かなえーる"
+    },
+    {
+      "name": "神田笑一",
+      "channel_id": "UCWz0CSYCxf4MhRKPDm220AQ",
+      "tag": "#噛むなよ神田"
+    },
+    {
+      "name": "北小路ヒスイ",
+      "channel_id": "UCRqBKoKuX30ruKAq05pCeRQ",
+      "tag": "#ヒストリーム"
+    },
+    {
+      "name": "ギルザレンIII世",
+      "channel_id": "UCUzJ90o1EjqUbk2pBAy0_aw",
+      "tag": "#ギルザレンIII世"
+    },
+    {
+      "name": "葛葉",
+      "channel_id": "UCSFCh5NL4qXrAy9u-u2lX3g",
+      "tag": "#くずなま"
+    },
+    {
+      "name": "来栖夏芽",
+      "channel_id": "UCRcLAVTbmx2-iNcXSsupdNA",
+      "tag": "#なつめぇ牧場"
+    },
+    {
+      "name": "黒井しば",
+      "channel_id": "UCmeyo5pRj_6PXG-CsGUuWWg",
+      "tag": "#しばの世話"
+    },
+    {
+      "name": "グウェル・オス・ガール",
+      "channel_id": "UC1QgXt46-GEvtNjEC1paHnw",
+      "tag": "#グウェルステーション"
+    },
+    {
+      "name": "郡道美玲",
+      "channel_id": "UCeShTCVgZyq2lsBW9QwIJcw",
+      "tag": "#教えて郡道先生"
+    },
+    {
+      "name": "剣持刀也",
+      "channel_id": "UCv1fFr156jc65EMiLbaLImw",
+      "tag": "#剣持刀也生"
+    },
+    {
+      "name": "弦月藤士郎",
+      "channel_id": "UCGw7lrT-rVZCWHfdG9Frcgg",
+      "tag": "#弦ノ刻"
+    },
+    {
+      "name": "三枝明那",
+      "channel_id": "UCNW1Ex0r6HsWRD4LCtPwvoQ",
+      "tag": "#三枝全力配信"
+    },
+    {
+      "name": "桜凛月",
+      "channel_id": "UCfQVs_KuXeNAlGa3fb8rlnQ",
+      "tag": "#生りつきーん"
+    },
+    {
+      "name": "笹木咲",
+      "channel_id": "UCoztvTULBYd3WmStqYeoHcA",
+      "tag": "#笹らいぶ"
+    },
+    {
+      "name": "椎名唯華",
+      "channel_id": "UC_4tXjqecqox5Uc05ncxpxg",
+      "tag": "#しい生"
+    },
+    {
+      "name": "シェリン・バーガンディ",
+      "channel_id": "UCHBhnG2G-qN0JrrWmMO2FTA",
+      "tag": "#シェリンの推理ショー"
+    },
+    {
+      "name": "シスター・クレア",
+      "channel_id": "UC1zFJrfEKvCixhsjNSb1toQ",
+      "tag": "#たぬさんあつまれ"
+    },
+    {
+      "name": "静凛",
+      "channel_id": "UC6oDys1BGgBsIC3WhG1BovQ",
+      "tag": "#しずりん生放送"
+    },
+    {
+      "name": "渋谷ハジメ",
+      "channel_id": "UCeK9HFcRZoTrvqcUCtccMoQ",
+      "tag": "#渋谷ハジメ生放送"
+    },
+    {
+      "name": "白雪巴",
+      "channel_id": "UCuvk5PilcvDECU7dDZhQiEw",
+      "tag": "#女王のお戯れ"
+    },
+    {
+      "name": "ジョー・力一",
+      "channel_id": "UChUJbHiTVeGrSkTdBzVfNCQ",
+      "tag": "#常套句"
+    },
+    {
+      "name": "周央サンゴ",
+      "channel_id": "UCL_O_HXgLJx3Auteer0n0pA",
+      "tag": "#さんごしょー"
+    },
+    {
+      "name": "健屋花那",
+      "channel_id": "UC8C1LLhBhf_E2IBPLSDJXlQ",
+      "tag": "#すこやカルテ"
+    },
+    {
+      "name": "鈴鹿詩子",
+      "channel_id": "UCwokZsOK_uEre70XayaFnzA",
+      "tag": "#詩子おねえさんといっしょ"
+    },
+    {
+      "name": "鈴木勝",
+      "channel_id": "UCryOPk2GZ1meIDt53tL30Tw",
+      "tag": "#漆黒の観測者"
+    },
+    {
+      "name": "鈴谷アキ",
+      "channel_id": "UCpnvhOIJ6BN-vPkYU9ls-Eg",
+      "tag": "#アキ生"
+    },
+    {
+      "name": "瀬戸美夜子",
+      "channel_id": "UCHK5wkevfaGrPr7j3g56Jmw",
+      "tag": "#せとみやライブ"
+    },
+    {
+      "name": "空星きらめ",
+      "channel_id": "UC_82HBGtvwN1hcGeOGHzUBQ",
+      "tag": "#きらきらいぶ"
+    },
+    {
+      "name": "鷹宮リオン",
+      "channel_id": "UCV5ZZlLjk5MKGg3L0n0vbzw",
+      "tag": "#リオ生"
+    },
+    {
+      "name": "月ノ美兎",
+      "channel_id": "UCD-miitqNY3nyukJ4Fnf4_A",
+      "tag": "#みとの生放送"
+    },
+    {
+      "name": "でびでび・でびる",
+      "channel_id": "UCjlmCrq4TP1I4xguOtJ-31w",
+      "tag": "#でびでびるなま"
+    },
+    {
+      "name": "東堂コハク",
+      "channel_id": "UCebT4Aq-3XWb5je1S1FvR_A",
+      "tag": "#東堂堂々行動中"
+    },
+    {
+      "name": "轟京子",
+      "channel_id": "UCRV9d6YCYIMUszK-83TwxVA",
+      "tag": "#ろき生"
+    },
+    {
+      "name": "ドーラ",
+      "channel_id": "UC53UDnhAAYwvNO7j_2Ju1cQ",
+      "tag": "#ドーラとおはなし"
+    },
+    {
+      "name": "長尾景",
+      "channel_id": "UCXW4MqCQn-jCaxlX-nn-BYg",
+      "tag": "#景成長中"
+    },
+    {
+      "name": "奈羅花",
+      "channel_id": "UC-o-E6I3IC2q8sAoAuM6Umg",
+      "tag": "#ならおんえあ"
+    },
+    {
+      "name": "成瀬鳴",
+      "channel_id": "UCoM_XmK45j504hfUWvN06Qg",
+      "tag": "#鳴OnLive"
+    },
+    {
+      "name": "西園チグサ",
+      "channel_id": "UCkngxfPbmGyGl_RIq4FA3MQ",
+      "tag": "#チグサリウム"
+    },
+    {
+      "name": "ニュイ・ソシエール",
+      "channel_id": "UCUc8GZfFxtmk7ZwSO7ccQ0g",
+      "tag": "#にゅらいぶ"
+    },
+    {
+      "name": "葉加瀬冬雪",
+      "channel_id": "UCGYAYLDE7TZiiC8U6teciDQ",
+      "tag": "#冬雪ラボ"
+    },
+    {
+      "name": "花畑チャイカ",
+      "channel_id": "UCsFn_ueskBkMCEyzCEqAOvg",
+      "tag": "#チャイカデラックス"
+    },
+    {
+      "name": "早瀬走",
+      "channel_id": "UC2OacIzd2UxGHRGhdHl1Rhw",
+      "tag": "#早瀬放走中"
+    },
+    {
+      "name": "葉山舞鈴",
+      "channel_id": "UCfipDDn7wY-C-SoUChgxCQQ",
+      "tag": "#生け捕り町おこし"
+    },
+    {
+      "name": "春崎エアル",
+      "channel_id": "UCtAvQ5U0aXyKwm2i4GqFgJg",
+      "tag": "#ハルライブ"
+    },
+    {
+      "name": "樋口楓",
+      "channel_id": "UCsg-YqdqQ-KFF0LNk23BY4A",
+      "tag": "#でろおんえあ"
+    },
+    {
+      "name": "壱百満天原サロメ",
+      "channel_id": "UCgIfLpQvelloDi8I0Ycbwpg",
+      "tag": "#サロメ満点配信ですわ"
+    },
+    {
+      "name": "伏見ガク",
+      "channel_id": "UCXU7YYxy_iQd3ulXyO-zC2w",
+      "tag": "#生アクト"
+    },
+    {
+      "name": "フミ",
+      "channel_id": "UCwrjITPwG4q71HzihV2C7Nw",
+      "tag": "#生フミ"
+    },
+    {
+      "name": "文野環",
+      "channel_id": "UCBiqkFJljoxAj10SoP2w2Cg",
+      "tag": "#のらジェット"
+    },
+    {
+      "name": "フレン・E・ルスタリオ",
+      "channel_id": "UCuep1JCrMvSxOGgGhBfJuYw",
+      "tag": "#ルスタリオンエア"
+    },
+    {
+      "name": "不破湊",
+      "channel_id": "UC6wvdADTJ88OfIbJYIpAaDA",
+      "tag": "#フワミナイト"
+    },
+    {
+      "name": "ベルモンド・バンデラス",
+      "channel_id": "UCbc8fwhdUNlqi-J99ISYu4A",
+      "tag": "#ようこそデラスへ"
+    },
+    {
+      "name": "星川サラ",
+      "channel_id": "UC9V3Y3_uzU5e-usObb6IE1w",
+      "tag": "#星川観測"
+    },
+    {
+      "name": "本間ひまわり",
+      "channel_id": "UC0g1AE0DOjBYnLhkgoRWN1w",
+      "tag": "#ひまなま"
+    },
+    {
+      "name": "先斗寧",
+      "channel_id": "UCe22Bcwd_GCpTjLxn83zl7A",
+      "tag": "#ぽんとらいぶ"
+    },
+    {
+      "name": "舞元啓介",
+      "channel_id": "UCJubINhCcFXlsBwnHp0wl_g",
+      "tag": "#まいもとなま"
+    },
+    {
+      "name": "魔界ノりりむ",
+      "channel_id": "UC9EjSJ8pvxtvPdxLOElv73w",
+      "tag": "#りりむとあそぼう"
+    },
+    {
+      "name": "ましろ",
+      "channel_id": "UCfki3lMEF6SGBFiFfo9kvUA",
+      "tag": "#ましろとしゃべる"
+    },
+    {
+      "name": "町田ちま",
+      "channel_id": "UCo7TRj3cS-f_1D9ZDmuTsjw",
+      "tag": "#なま公"
+    },
+    {
+      "name": "魔使マオ",
+      "channel_id": "UCerkculBD7YLc_vOGrF7tKg",
+      "tag": "#まおんらいぶ"
+    },
+    {
+      "name": "黛灰",
+      "channel_id": "UCb5JxV6vKlYVknoJB8TnyYg",
+      "tag": "#ライブハック"
+    },
+    {
+      "name": "モイラ",
+      "channel_id": "UCvmppcdYf4HOv-tFQhHHJMA",
+      "tag": "#もいもいもい"
+    },
+    {
+      "name": "物述有栖",
+      "channel_id": "UCt0clH12Xk1-Ej5PXKGfdPA",
+      "tag": "#有栖のお茶会"
+    },
+    {
+      "name": "森中花咲",
+      "channel_id": "UCtpB6Bvhs1Um93ziEDACQ8g",
+      "tag": "#かざ生放送"
+    },
+    {
+      "name": "矢車りね",
+      "channel_id": "UCvzVB-EYuHFXHZrObB8a_Og",
+      "tag": "#矢車観察日記"
+    },
+    {
+      "name": "社築",
+      "channel_id": "UCKMYISTJAQ8xTplUPHiABlA",
+      "tag": "#社築フィードバック"
+    },
+    {
+      "name": "山神カルタ",
+      "channel_id": "UCllKI7VjyANuS1RXatizfLQ",
+      "tag": "#山神カタル"
+    },
+    {
+      "name": "勇気ちひろ",
+      "channel_id": "UCLO9QDxVL4bnvRRsz6K4bsQ",
+      "tag": "#ちーらいぶ"
+    },
+    {
+      "name": "夕陽リリ",
+      "channel_id": "UC48jH1ul-6HOrcSSfoR02fQ",
+      "tag": "#リリ生放送"
+    },
+    {
+      "name": "雪城眞尋",
+      "channel_id": "UCHX7YpFG8rVwhsHCx34xt7w",
+      "tag": "#まひろおんらいぶ"
+    },
+    {
+      "name": "夢月ロア",
+      "channel_id": "UCCVwhI5trmaSxfcze_Ovzfw",
+      "tag": "#ロアゲート"
+    },
+    {
+      "name": "夢追翔",
+      "channel_id": "UCTIE7LM5X15NVugV7Krp9Hw",
+      "tag": "#翔onAir"
+    },
+    {
+      "name": "夜見れな",
+      "channel_id": "UCL34fAoFim9oHLbVzMKFavQ",
+      "tag": "#れなのマジックショー"
+    },
+    {
+      "name": "ラトナ・プティ",
+      "channel_id": "UCIG9rDtgR45VCZmYnd-4DUw",
+      "tag": "#ラトプテ"
+    },
+    {
+      "name": "リゼ・ヘルエスタ",
+      "channel_id": "UCZ1xuCK1kNmn5RzPYIZop3w",
+      "tag": "#ヘルエスタ国営放送"
+    },
+    {
+      "name": "緑仙",
+      "channel_id": "UCt5-0i4AVHXaWJrL8Wql3mw",
+      "tag": "#緑仙の配信"
+    },
+    {
+      "name": "竜胆尊",
+      "channel_id": "UCPvGypSgfDkVe7JG2KygK7A",
+      "tag": "#みことーく"
+    },
+    {
+      "name": "ルイス・キャミー",
+      "channel_id": "UCb6ObE-XGCctO3WrjRZC-cw",
+      "tag": "#ルイスの予告状"
+    },
+    {
+      "name": "レイン・パターソン",
+      "channel_id": "UCRm6lqtdxs_Qo6HeL-SRQ-w",
+      "tag": "#レイン任務中"
+    },
+    {
+      "name": "レオス・ヴィンセント",
+      "channel_id": "UC-6rZgmxZSIbq786j3RD5ow",
+      "tag": "#レオスの実験室"
+    },
+    {
+      "name": "レヴィ・エリファ",
+      "channel_id": "UCtnO2N4kPTXmyvedjGWdx3Q",
+      "tag": "#れゔぃあたんねる"
+    },
+    {
+      "name": "ローレン・イロアス",
+      "channel_id": "UCgmFrRcyH7d1zR9sIVQhFow",
+      "tag": "#Iroastream"
+    },
+    {
+      "name": "にじさんじ公式チャンネル",
+      "channel_id": "UCX7YkU9nEeaoZbkVLVajcMg",
+      "tag": "#にじさんじ"
+    }
+  ]
+}
