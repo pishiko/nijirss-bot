@@ -1,0 +1,24 @@
+asn1crypto==0.24.0
+certifi==2021.10.8
+charset-normalizer==2.0.12
+cryptography==2.6.1
+distro-info==0.21
+entrypoints==0.3
+idna==3.3
+keyring==17.1.1
+keyrings.alt==3.1.1
+oauthlib==3.2.0
+pycrypto==2.6.1
+PyGObject==3.30.4
+python-apt==1.8.4.3
+python-dotenv==0.20.0
+# pytube==12.1.0
+git+https://github.com/JazPin/pytube.git@834e2d6#egg=pytube
+pyxdg==0.25
+requests==2.27.1
+requests-oauthlib==1.3.1
+SecretStorage==2.3.1
+six==1.12.0
+tweepy==4.8.0
+unattended-upgrades==0.1
+urllib3==1.26.9
