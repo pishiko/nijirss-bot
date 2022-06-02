@@ -1,0 +1,47 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Tweet
+
+# Controls when the workflow will run
+on:
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    name: Tweet
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+    
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      # Runs a single command using the runners shell
+      - name: Setup ffmpeg
+        uses: FedericoCarboni/setup-ffmpeg@v1.1.0
+        
+      - name: Setup Python
+        uses: actions/setup-python@v3.1.2
+        with:
+          python-version: '3.7.3'
+          architecture: 'x64'
+          
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      # Runs a set of commands using the runners shell
+      - name: Run
+        env:
+          TWITTER_CONSUMER_KEY: ${{ secrets.TWITTER_CONSUMER_KEY }}
+          TWITTER_CONSUMER_SECRET: ${{ secrets.TWITTER_CONSUMER_SECRET }}
+          TWITTER_ACCESS_TOKEN: ${{ secrets.TWITTER_ACCESS_TOKEN }}
+          TWITTER_ACCESS_SECRET: ${{ secrets.TWITTER_ACCESS_SECRET }}
+          HOOK_URL: ${{ secrets.HOOK_URL }}
+          FFMPEG_PATH: ffmpeg
+        run: |
+          python run.py
