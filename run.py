@@ -17,6 +17,7 @@ def main():
 
     counter = 0
     while counter < RETRY_MAX:
+        print(f"Start try:{counter}")
         try:
             with open(INPUT_DATA, encoding="utf-8") as f:
                 data = json.load(f)
