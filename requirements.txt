@@ -1,5 +1,5 @@
 python-dotenv==0.20.0
 # pytube==12.1.0
-git+https://github.com/pishiko/pytube.git@custom-channel-stream#egg=pytube
+git+https://github.com/pishiko/pytube.git@fix-channel#egg=pytube
 requests==2.27.1
 tweepy==4.8.0
