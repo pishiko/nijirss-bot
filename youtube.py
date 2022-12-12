@@ -7,6 +7,8 @@ import io
 def download_one(channel_id: str, out_name: str) -> YouTube:
     c = Channel(url=f"https://www.youtube.com/channel/{channel_id}")
     videos = [v for v in c.videos]
+    videos += [v for v in c.streams]
+    videos += [v for v in c.shorts]
     video = choice(videos)
     b = io.BytesIO()
     video.streams.filter(
