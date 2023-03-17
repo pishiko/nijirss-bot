@@ -7,7 +7,7 @@ with open('./util/tags.csv', encoding="utf-8") as f:
     tags = [row for row in reader]
 
 try:
-    resp = requests.get("https://api.itsukaralink.jp/v1.2/livers.json")
+    resp = requests.get("https://www.nijisanji.jp/api/livers?limit=300&orderKey=debut_at&order=asc&affiliation=nijisanji&locale=ja&includeHidden=true")
     livers = json.loads(resp.text)
     with open("./util/livers.json", mode="w", encoding="utf-8") as f:
         json.dump(livers, f, indent=2, ensure_ascii=False)
@@ -20,14 +20,17 @@ out = {
     "livers": []
 }
 
-for liver in livers["data"]["liver_relationships"]:
-    name = liver["liver"]["name"]
-    youtube = liver["liver_youtube_channel"]["channel"]
+for liver in livers:
+    name = liver["name"]
+    youtube = liver["socialLinks"]["youtube"]
     tag = "#にじさんじ"
 
     ftags = list(filter(lambda tag: tag[0] == name, tags))
     if ftags:
         tag = ftags[0][1]
+    else:
+        print(f'{name} is not in csv.')
+        continue
     out["livers"].append({
         "name": name,
         "channel_id": youtube,
