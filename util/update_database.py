@@ -23,6 +23,8 @@ out = {
 for liver in livers:
     name = liver["name"]
     youtube = liver["socialLinks"]["youtube"]
+    if youtube:
+        youtube = youtube.replace("https://www.youtube.com/channel/","")
     tag = "#にじさんじ"
 
     ftags = list(filter(lambda tag: tag[0] == name, tags))
