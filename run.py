@@ -16,9 +16,9 @@ RETRY_MAX = 5
 
 def main():
 
-    counter = 0
-    while counter < RETRY_MAX:
-        print(f"Start try:{counter}")
+    try_counter = 0
+    while try_counter < RETRY_MAX:
+        print(f"Start try:{try_counter}")
         try:
             with open(INPUT_DATA, encoding="utf-8") as f:
                 data = json.load(f)
@@ -27,11 +27,11 @@ def main():
             time = randint(1, video.length)
             create_image(MOVIE_NAME, IMAGE_NAME, time)
             break
-        except Exception as e:
-            counter += 1
-            post_hook(f"try:{counter}\n```{traceback.format_exc()}```")
+        except Exception as _:
+            try_counter += 1
+            post_hook(f"try:{try_counter}\n```{traceback.format_exc()}```")
     else:
-        post_hook(f"@everyone EXIT : failed {RETRY_MAX}times")
+        post_hook(f"@everyone EXIT")
         return
 
     twitter = Twitter()
