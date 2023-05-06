@@ -1,3 +1,4 @@
+import traceback
 from youtube import download_one
 from image import create_image
 from twitter import Twitter
@@ -27,8 +28,8 @@ def main():
             create_image(MOVIE_NAME, IMAGE_NAME, time)
             break
         except Exception as e:
-            post_hook(f"catch failed : {os.path.basename(__file__)}{str(e)}")
             counter += 1
+            post_hook(f"try:{counter}\n```{traceback.format_exc()}```")
     else:
         post_hook(f"@everyone EXIT : failed {RETRY_MAX}times")
         return
