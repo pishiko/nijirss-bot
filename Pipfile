@@ -7,7 +7,7 @@ name = "pypi"
 python-dotenv = "==0.20.0"
 pytube = {ref = "master", git = "https://github.com/pishiko/pytube.git"}
 requests = "==2.27.1"
-tweepy = "==4.8.0"
+tweepy = "==4.14.0"
 
 [dev-packages]
 
