@@ -14,13 +14,13 @@ class Twitter():
         auth = tweepy.OAuthHandler(consumer_key=CONSUMER_KEY, consumer_secret=CONSUMER_SECRET,
                                    access_token=ACCESS_TOKEN, access_token_secret=ACCESS_SECRET)
         self.api = tweepy.API(auth)
+        self.client = tweepy.Client(consumer_key=CONSUMER_KEY, consumer_secret=CONSUMER_SECRET, access_token=ACCESS_TOKEN, access_token_secret=ACCESS_SECRET)
 
     def tweet(self, text: str, file_name: str):
-        self.api.update_status_with_media(
-            status=text,
-            filename=file_name
-        )
-
+        media =  self.api.simple_upload(filename=file_name)
+        if media is None:
+            raise Exception("media is None")
+        self.client.create_tweet(text=text, media_ids=[media.media_id])
 
 if __name__ == "__main__":
-    Twitter().tweet("てすと #DEV", "out.png")
+    Twitter().tweet("test #dev", "youtuber_virtual.png")
