@@ -41,11 +41,6 @@
       "tag": "#ちーらいぶ"
     },
     {
-      "name": "にじさんじ公式",
-      "channel_id": "UCX7YkU9nEeaoZbkVLVajcMg",
-      "tag": "#にじさんじ"
-    },
-    {
       "name": "家長むぎ",
       "channel_id": "UC_GCs6GARLxEHxy1w40d6VQ",
       "tag": "#むぎむぎ生放送"
@@ -254,11 +249,6 @@
       "name": "夢追翔",
       "channel_id": "UCTIE7LM5X15NVugV7Krp9Hw",
       "tag": "#翔onAir"
-    },
-    {
-      "name": "郡道美玲",
-      "channel_id": "UCeShTCVgZyq2lsBW9QwIJcw",
-      "tag": "#教えて郡道先生"
     },
     {
       "name": "夢月ロア",
@@ -476,11 +466,6 @@
       "tag": "#きらきらいぶ"
     },
     {
-      "name": "朝日南アカネ",
-      "channel_id": "UCe_p3YEuYJb8Np0Ip9dk-FQ",
-      "tag": "#あーこといっしょ"
-    },
-    {
       "name": "北小路ヒスイ",
       "channel_id": "UCRqBKoKuX30ruKAq05pCeRQ",
       "tag": "#ヒストリーム"
@@ -526,14 +511,14 @@
       "tag": "#夢遊旅行"
     },
     {
-      "name": "海妹四葉",
-      "channel_id": "UCtHY-tP0dyykhTRMmnfPs_g",
-      "tag": "#428LIVE"
-    },
-    {
       "name": "先斗寧",
       "channel_id": "UCe22Bcwd_GCpTjLxn83zl7A",
       "tag": "#ぽんとらいぶ"
+    },
+    {
+      "name": "海妹四葉",
+      "channel_id": "UCtHY-tP0dyykhTRMmnfPs_g",
+      "tag": "#428LIVE"
     },
     {
       "name": "壱百満天原サロメ",
@@ -594,6 +579,46 @@
       "name": "ソフィア・ヴァレンタイン",
       "channel_id": "UCivwPlOp0ojnMPZj5pNOPPA",
       "tag": "#ヴァレンタイム"
+    },
+    {
+      "name": "赤城ウェン",
+      "channel_id": "https://www.youtube.com/@AkagiWen",
+      "tag": "#ウェンジョイタイム"
+    },
+    {
+      "name": "宇佐美リト",
+      "channel_id": "https://www.youtube.com/@UsamiRito",
+      "tag": "#ウサミストリィィィィムッ"
+    },
+    {
+      "name": "佐伯イッテツ",
+      "channel_id": "https://www.youtube.com/@SaikiIttetsu",
+      "tag": "#サイキ通信ケーブル"
+    },
+    {
+      "name": "緋八マナ",
+      "channel_id": "https://www.youtube.com/@HibachiMana",
+      "tag": "#緋八ナマ"
+    },
+    {
+      "name": "伊波ライ",
+      "channel_id": "https://www.youtube.com/@InamiRai",
+      "tag": "#伊ぃ波乗ってんねぇ"
+    },
+    {
+      "name": "小柳ロウ",
+      "channel_id": "https://www.youtube.com/@KoyanagiRou",
+      "tag": "#リロウド完了"
+    },
+    {
+      "name": "星導ショウ",
+      "channel_id": "https://www.youtube.com/@HoshirubeSho",
+      "tag": "#すたりうむ"
+    },
+    {
+      "name": "叢雲カゲツ",
+      "channel_id": "https://www.youtube.com/@MurakumoKagetsu",
+      "tag": "#叢人監視中"
     }
   ]
 }
