@@ -5,7 +5,7 @@ name = "pypi"
 
 [packages]
 python-dotenv = "==0.20.0"
-pytube = {ref = "custom-channel-stream", git = "https://github.com/pishiko/pytube.git"}
+pytube = {ref = "master", git = "https://github.com/pishiko/pytube.git"}
 requests = "==2.27.1"
 tweepy = "==4.8.0"
 
