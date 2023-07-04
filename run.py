@@ -26,6 +26,7 @@ def main():
             video = download_one(liver["channel_id"], MOVIE_NAME)
             time = randint(1, video.length)
             create_image(MOVIE_NAME, IMAGE_NAME, time)
+            publish_date = video.publish_date.strftime('%Y年%m月%d日') if video.publish_date else ''
             break
         except Exception as _:
             try_counter += 1
@@ -35,7 +36,7 @@ def main():
         return
 
     twitter = Twitter()
-    text = f" {liver['tag']}"
+    text = f"{publish_date} {video.title} {video.watch_url}&t={time}s {liver['tag']}"
     twitter.tweet(text, IMAGE_NAME)
     post_hook(f"#SUCCESS:{video.title}({video.watch_url}&t={time}s)")
 
