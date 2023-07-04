@@ -36,7 +36,7 @@ def main():
         return
 
     twitter = Twitter()
-    text = f"{publish_date} {video.title} {video.watch_url}&t={time}s {liver['tag']}"
+    text = f"{publish_date} {liver['tag']}\n{video.watch_url}&t={time}s"
     twitter.tweet(text, IMAGE_NAME)
     post_hook(f"#SUCCESS:{video.title}({video.watch_url}&t={time}s)")
 
